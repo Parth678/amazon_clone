@@ -116,7 +116,7 @@ span{
     font-weight: 700;
 }
 .hero-section{
- /**   background-image: url("hero_image.jpg");**/
+    background-image: url("hero_image.jpg");
     height: 500px;
     display:grid;
     grid-template-columns: repeat(3);
@@ -243,9 +243,4 @@ ul a{
     grid-row: 2;
     justify-self: start;
   }
-  .hero-section {
-    position: relative;
-    display: inline-block;
-    transition: opacity 0.3s; /* Add a smooth transition effect */
-    position: absolute;
-}
+  
